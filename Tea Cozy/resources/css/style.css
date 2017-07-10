@@ -1,0 +1,182 @@
+body {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: seashell;
+    margin: 0;
+}
+
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+#navigation {
+    display: flex;
+    position: fixed;
+    height: 69px;
+    width: 99%;
+    border-bottom: 1px solid seashell;
+    font-size: 14px;
+    background-color: black;
+    z-index: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.flex-item {
+    width: auto;
+    height: auto;
+    padding: 20px 10px;
+    flex-direction: column;
+    text-decoration: underline;
+    display: block;
+}
+
+#logo img{
+    padding-left: 10px;
+    max-width: 60%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex-item:first-child {
+    margin-right: auto;
+}
+
+.flex-item a {
+    color: seashell;
+    font-size: 22px;
+}
+
+/*-----------------*/
+
+.page {
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+
+/*-----------------*/
+
+#content {
+    background-image: url("../images/Background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    padding-top: 70px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#content h2,
+h4 {
+    background-color: black;
+    height: 45px;
+}
+
+/*-----------------*/
+
+#for-sale {
+    height: 800px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+#products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.items {
+    padding: 5px;
+}
+
+.items img {
+    height: 200px;
+    margin: 10px;
+}
+
+.items h4 {
+    display: block;
+
+    font-weight: bold;
+    text-align: center;
+}
+
+/*-----------------*/
+
+#locations {
+    background-image: url("../images/Locations.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto;
+    max-height: 500px;
+    padding: 70px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#places {
+    display: inline-flex;
+    padding-top: 20px;
+    padding-bottom: 85px;
+}
+
+#locations h2 {
+    margin: auto;
+    padding: 0;
+}
+
+#locations #places {
+    margin: auto;
+    width: 1000px;
+    display: flex;
+}
+
+.location {
+    background-color: black;
+    opacity: 1;
+    margin: 5px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 300px;
+}
+
+.location p{
+    margin: 20px;
+}
+/*-----------------*/
+
+#contact-us {
+    height: 200px;
+}
+
+#contact-us h5 {
+    color: seashell;
+}
+
+#3 h5{
+    color: seashell;
+}
+/*-----------------*/
+
+footer {
+    padding-left: 20px;
+}
+
+footer h5 {
+    text-align: left;
+}
